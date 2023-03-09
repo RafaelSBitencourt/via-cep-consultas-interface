@@ -14,5 +14,8 @@
   ],
   "author": "rafaelsbiten@hotmail.com",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
 }
