@@ -1,0 +1,51 @@
+.gap__0-1 {
+  gap: 0.1rem;
+}
+
+.gap__0-2 {
+  gap: 0.2rem;
+}
+
+.gap__0-5 {
+  gap: 0.5rem;
+}
+
+.gap__1 {
+  gap: 1rem;
+}
+
+.gap__1-5 {
+  gap: 1.5rem;
+}
+
+.gap__10 {
+  gap: 10rem;
+}
+
+.width__full {
+  width: 100%;
+}
+
+.height__full {
+  height: 100%;
+}
+
+.padding__1 {
+  padding: 1rem;
+}
+
+.padding__1-lr {
+  padding: 1rem;
+}
+
+.padding__1-tb {
+  padding: 1rem;
+}
+
+.padding__05-lr {
+  padding: 0.5rem;
+}
+
+.padding__05-tb {
+  padding: 0.5rem;
+}

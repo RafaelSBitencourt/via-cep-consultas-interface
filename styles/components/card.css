@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  min-height: 60%;
+  background-color: var(--background-light);
+  border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+}

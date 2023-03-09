@@ -1,0 +1,123 @@
+.flex__start--start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex__start--center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex__start--end {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.flex__center--start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex__center--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex__center--end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex__end--start {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex__end--center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex__end--end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex__around--start {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.flex__around--center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex__around--end {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex__between--start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flex__between--center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex__between--end {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex__evenly--start {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.flex__evenly--center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex__evenly--end {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.flex__column {
+  flex-direction: column;
+}
+
+.grid__2c-1r {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.grid__2c-2r {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}

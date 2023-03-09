@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+
+@import "./utilities/display.css";
+@import "./utilities/spaces.css";
+@import "./components/background.css";
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/container.css";
+@import "./components/input.css";
+@import "./components/title.css";
+@import "./components/tooltip.css";
+@import "./components/ul.css";
+
+html {
+  font-family: "Maven Pro", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+}

@@ -1,0 +1,10 @@
+.container {
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    gap: 0.5rem;
+  }
+}

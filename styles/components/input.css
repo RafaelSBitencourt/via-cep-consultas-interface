@@ -1,0 +1,14 @@
+@import "../variables.css";
+
+.input-container {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.input-container input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+}

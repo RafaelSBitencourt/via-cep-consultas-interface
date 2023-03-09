@@ -3,16 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Via CEP Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
     <script type="module" defer src="/js/index.js"></script>
   </head>
   <body>
     <div class="background">
-      <div class="card">
-        <button class="button-primary">Clique Aqui</button>
+      <div class="card flex__between--center flex__column">
+        <div class="container flex__around--center flex__column">
+          <h3>Pesquisa por CEP</h3>
+          <div class="flex__between--end gap__0-5 width__full">
+            <div class="flex__center--start flex__column gap__0-2 width__full">
+              <label for="search-cep"> CEP </label>
+              <div class="flex__between--center width__full">
+                <div class="flex__between--center input-container width__full">
+                  <input
+                    name="search-cep"
+                    placeholder="Informe um CEP"
+                    type="text"
+                    data-cep-input
+                  />
+                  <button class="button__outline" data-clear-btn>X</button>
+                </div>
+              </div>
+            </div>
+            <div class="flex__center--center width__full height_full">
+              <button
+                class="button__outline width__full padding__05-tb"
+                data-search-btn
+              >
+                🔍 Pesquisar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex__center--center width__full" data-list>
+          <p>Digite um CEP e faça uma pesquisa</p>
+        </div>
+
+        <div class="flex__center-center width__full">
+          <span class="tooltip" data-tooltip
+            >📄 Copiado para a área de transferência
+          </span>
+          <button
+            class="padding__1-tb button__primary width__full"
+            data-copy-btn
+          >
+            💾 Copiar resultado
+          </button>
+        </div>
       </div>
     </div>
   </body>
