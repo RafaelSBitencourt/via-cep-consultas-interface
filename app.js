@@ -14,6 +14,8 @@ function typesDirection(url) {
     return "js";
   } else if (url.includes(".svg")) {
     return "svg";
+  } else if (url.includes(".ico")) {
+    return "ico";
   } else {
     return "";
   }
@@ -59,6 +61,17 @@ const server = http.createServer(function (req, res) {
       try {
         fs.readFile(`.${req.url}`, function (err, data) {
           res.writeHead(200, { "Content-Type": "text/javascript" });
+          res.write(data);
+          return res.end();
+        });
+      } catch (err) {
+        console.log(err);
+      }
+      break;
+    case "ico":
+      try {
+        fs.readFile(`./public/svg/package.svg`, function (err, data) {
+          res.writeHead(200, { "Content-Type": "image/svg+xml" });
           res.write(data);
           return res.end();
         });
