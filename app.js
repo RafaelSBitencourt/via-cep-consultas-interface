@@ -20,7 +20,6 @@ function typesDirection(url) {
 }
 
 const server = http.createServer(function (req, res) {
-  console.log(req.url);
   const fileType = typesDirection(req.url);
   switch (fileType) {
     case "home":

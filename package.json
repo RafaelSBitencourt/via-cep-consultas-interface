@@ -4,7 +4,7 @@
   "description": "a interface to consume the endpoints of Viacep API",
   "main": "app.js",
   "scripts": {
-    "test": "node run app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "front-end",
