@@ -1,0 +1,15 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1%;
+  background: rgb(255, 235, 115);
+  background: linear-gradient(
+    151deg,
+    rgba(255, 235, 115, 1) 0%,
+    rgba(94, 138, 109, 1) 50%,
+    rgba(0, 106, 171, 1) 100%
+  );
+}
